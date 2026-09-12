@@ -1,0 +1,4 @@
+asset_id,name,category,location,last_service,interval_days,criticality
+BAD-001,Equipo demo,Lab,Sede Demo,2026-02-30,180,alta
+BAD-002,Equipo demo,Lab,Sede Demo,2026-01-01,0,media
+BAD-003,Equipo demo,Lab,Sede Demo,2026-01-01,180,urgente

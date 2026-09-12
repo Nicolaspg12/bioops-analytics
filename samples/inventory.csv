@@ -1,0 +1,25 @@
+asset_id,name,category,location,last_service,interval_days,criticality
+BIO-001,Monitor multiparámetro,Monitoreo,Sede Norte,2026-02-02,180,alta
+BIO-002,Bomba de infusión,Terapia,Sede Centro,2026-02-26,180,media
+BIO-003,Electrocardiógrafo,Laboratorio,Sede Sur,2026-03-09,180,baja
+BIO-004,Centrífuga,Monitoreo,Sede Norte,2026-03-16,180,alta
+BIO-005,Desfibrilador,Terapia,Sede Centro,2026-03-24,180,media
+BIO-006,Autoclave,Laboratorio,Sede Sur,2026-04-03,180,baja
+BIO-007,Báscula digital,Monitoreo,Sede Norte,2026-04-10,180,alta
+BIO-008,Oxímetro,Terapia,Sede Centro,2026-04-30,180,media
+BIO-009,Monitor multiparámetro,Laboratorio,Sede Sur,2026-05-20,180,baja
+BIO-010,Bomba de infusión,Monitoreo,Sede Norte,2026-06-14,180,alta
+BIO-011,Electrocardiógrafo,Terapia,Sede Centro,2026-07-04,180,media
+BIO-012,Centrífuga,Laboratorio,Sede Sur,2026-07-24,180,baja
+BIO-013,Desfibrilador,Monitoreo,Sede Norte,2026-02-02,180,alta
+BIO-014,Autoclave,Terapia,Sede Centro,2026-02-26,180,media
+BIO-015,Báscula digital,Laboratorio,Sede Sur,2026-03-09,180,baja
+BIO-016,Oxímetro,Monitoreo,Sede Norte,2026-03-16,180,alta
+BIO-017,Monitor multiparámetro,Terapia,Sede Centro,2026-03-24,180,media
+BIO-018,Bomba de infusión,Laboratorio,Sede Sur,2026-04-03,180,baja
+BIO-019,Electrocardiógrafo,Monitoreo,Sede Norte,2026-04-10,180,alta
+BIO-020,Centrífuga,Terapia,Sede Centro,2026-04-30,180,media
+BIO-021,Desfibrilador,Laboratorio,Sede Sur,2026-05-20,180,baja
+BIO-022,Autoclave,Monitoreo,Sede Norte,2026-06-14,180,alta
+BIO-023,Báscula digital,Terapia,Sede Centro,2026-07-04,180,media
+BIO-024,Oxímetro,Laboratorio,Sede Sur,2026-07-24,180,baja
