@@ -11,7 +11,7 @@
 
 Un inventario disperso dificulta identificar equipos con servicio vencido. BioOps valida un CSV, conserva los equipos en SQLite y calcula vencimientos por fecha de corte y sede. Cada carga deja una bitácora con filas insertadas, actualizadas, sin cambios y rechazadas.
 
-Proyecto de portafolio de **Nicolás Santiago Pantoja García**, relacionado con Python, ETL, SQL y gestión de mantenimiento biomédico. Construido con asistencia de IA. Todos los datos incluidos son ficticios; no está vinculado a un empleador ni se presenta como un sistema clínico certificado.
+Proyecto de portafolio de **Nicolás Santiago Pantoja García**, relacionado con Python, ETL, SQL y gestión de mantenimiento biomédico. Tdos los datos incluidos son ficticios; no está vinculado a un empleador ni se presenta como un sistema clínico certificado.
 
 ## Qué puedes demostrar
 
