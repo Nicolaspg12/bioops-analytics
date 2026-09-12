@@ -2,7 +2,7 @@
 
 Fecha: 2026-09-12. Entorno local: Windows, Python 3.12.
 
-- `python -m pytest -q`: **4 pruebas aprobadas**.
+- `python -m pytest -q`: **13 pruebas aprobadas**, incluidas 9 comprobaciones de seguridad de Host, origen y cabeceras.
 - Idempotencia, actualización por ID, duplicados dentro del CSV y persistencia de rechazos.
 - Límites de fechas, corte anterior al último servicio y vencimiento al día siguiente.
 - API: base vacía, demo, filtro por sede, exportación filtrada, CSV inválido, UTF-8 inválido, límite de tamaño y parámetros inválidos.

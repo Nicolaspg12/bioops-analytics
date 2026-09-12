@@ -10,12 +10,14 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from .etl import connect, ingest, inventory, demo_csv
+from .security import LocalOnlyMiddleware
 
 STATIC = Path(__file__).parent / 'static'
 
 
 def create_app(db_path=None):
     app = FastAPI(title='BioOps Analytics', version='1.0.0', description='ETL e indicadores de mantenimiento con datos sintéticos.')
+    app.add_middleware(LocalOnlyMiddleware)
     app.state.db_path = str(db_path or os.getenv('BIOOPS_DB', 'data/bioops.db'))
     app.mount('/static', StaticFiles(directory=STATIC), name='static')
 

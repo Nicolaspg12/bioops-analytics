@@ -30,7 +30,7 @@ def test_updates_duplicates_and_dates(tmp_path):
 
 
 def test_api_filters_export_and_invalid_input(tmp_path):
-    client = TestClient(create_app(tmp_path/'api.db'))
+    client = TestClient(create_app(tmp_path/'api.db'), base_url='http://localhost')
     assert client.get('/api/dashboard').json()['metrics']['compliance'] is None
     assert client.post('/api/demo').status_code == 200
     result = client.get('/api/dashboard',params={'location':'Sede Norte'}).json()
@@ -46,7 +46,7 @@ def test_api_filters_export_and_invalid_input(tmp_path):
 
 
 def test_formula_export_and_sql_filter(tmp_path):
-    client = TestClient(create_app(tmp_path/'api.db'))
+    client = TestClient(create_app(tmp_path/'api.db'), base_url='http://localhost')
     data = ','.join(FIELDS)+'\nA,=1+1,Lab,North,2026-01-01,180,alta\n'
     assert client.post('/api/import',content=data).json()['inserted']==1
     assert "'=1+1" in client.get('/api/export').text

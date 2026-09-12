@@ -118,4 +118,6 @@ Posibles extensiones: historial de órdenes de trabajo, PostgreSQL, autenticaci�
 
 ## Licencia
 
+Protecciones, revisión y límites de uso: [SECURITY.md](SECURITY.md).
+
 [MIT](LICENSE).
